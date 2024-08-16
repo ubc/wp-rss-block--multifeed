@@ -1,0 +1,19 @@
+.rss-multifeed-url-control{
+    display: grid;
+    grid-template-columns: 1fr 30px 30px;
+    align-items: center;
+    gap: 2px;
+
+    &__input {
+        margin-bottom: 0 !important;
+        * {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+.rss-multifeed--urls{
+    > * :not(:last-child) {
+        margin: 10px 0;
+    }
+}

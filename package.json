@@ -1,0 +1,24 @@
+{
+    "name": "wp-rss-block--multifeed",
+    "version": "1.0.0",
+    "description": "MultiFeed Addon for RSS block",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "wp-scripts start index.js",
+        "build": "wp-scripts build index.js"
+    },
+    "author": "Kelvin Xu",
+    "license": "GPL-2.0-only",
+    "devDependencies": {
+        "@wordpress/icons": "^10.5.0",
+        "@wordpress/scripts": "^28.5.0",
+        "css-loader": "^7.1.2",
+        "mini-css-extract-plugin": "^2.9.0",
+        "postcss-loader": "^8.1.1",
+        "react-router-dom": "^6.26.0",
+        "sass": "^1.77.8",
+        "sass-loader": "^16.0.0",
+        "style-loader": "^4.0.0"
+    }
+}
